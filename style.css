@@ -8,10 +8,14 @@ body{
     background: #39297b;
     color: #fff;
 }
-h1{
+h1 {
     text-align: center;
-    margin: 100px auto 50px;
+    margin: 39px auto 50px;
     font-weight: 800;
+    font-size: 18px;
+    padding-right: 125px;
+    padding-left: 84px;
+    padding-bottom: -6px;
 }
 form{
     width: 90%;
@@ -94,6 +98,7 @@ form button{
         display: flex;
         align-items: center;
         margin-right: 198px;
+        margin-left: 59px;
         margin-bottom: 0px;
         margin-top: -32px;
         border-radius: 8px;
@@ -102,13 +107,15 @@ form button{
         /* padding: 0 40px; */
         height: 26px;
         position: absolute;
-        margin-left: 164px;
+        margin-left: 225px;
         width: 6px;
         background: #0cd71a;
         color: #f8f8f8;
         font-size: 10px;
         border: 2;
+        /* margin-right: 37px; */
         padding-right: 45px;
+        margin-left: 167px;
         padding-left: 8px;
         border-color: #fff;
         outline: 1;
@@ -116,7 +123,6 @@ form button{
         border-bottom-right-radius: 8px;
         cursor: pointer;
     }
-    
 
     form input {
         flex: 1;
@@ -129,10 +135,11 @@ form button{
         padding: 0 30px;
     }
     #search-result {
-        width: 61%;
+        width: 90%;
         /* margin: 40px auto 50px; */
         margin-top: 36px;
         margin-right: 142px;
+        margin-left: 16px;
         display: grid;
         grid-auto-columns: 1fr;
         grid-gap: 15px;
@@ -155,11 +162,22 @@ form button{
         padding: 10px 20px 14px;
         border-radius: 4px;
         /* margin: 10px auto 100px; */
-        margin-left: 68px;
+        margin-left: 137px;
         /* margin-top: -44px; */
         position: relative;
         /* margin-bottom: -78px; */
         margin-top: -27px;
+        cursor: pointer;
+        display: none;
+    }
+    #show-more-btn {
+        background: #ff3929;
+        color: #fff;
+        border: 0;
+        outline: 0;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin: 10px auto 100px;
         cursor: pointer;
         display: none;
     }
